@@ -7,7 +7,7 @@ using UnityEngine;
 
 public class DataPlotter : MonoBehaviour
 {
-    public string inputfile;
+    public TextAsset data;
     private List<Dictionary<string, object>> pointList;
     public int columnX = 0;
     public int columnY = 1;
@@ -24,7 +24,7 @@ public class DataPlotter : MonoBehaviour
     void Start()
     {
         Debug.Log("Start");
-        pointList = CSVReader.Read(inputfile);
+        pointList = CSVReader.Read(data);
         List<string> columnList = new List<string>(pointList[0].Keys);
         abstractMap = map.GetComponent<AbstractMap>();
         //   foreach (string key in columnList)

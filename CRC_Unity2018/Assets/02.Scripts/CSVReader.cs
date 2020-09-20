@@ -15,16 +15,11 @@ public class CSVReader : MonoBehaviour
     static string LINE_SPLIT_RE = @"\r\n|\n\r|\n|\r"; // Define line delimiters, regular experession craziness
     static char[] TRIM_CHARS = { '\"' };
 
-    public static List<Dictionary<string, object>> Read(string file) //Declare method
+    public static List<Dictionary<string, object>> Read(TextAsset data) //Declare method
     {
         //Debug.Log("CSVReader is reading " + file); // Print filename, make sure parsed correctly
 
         var list = new List<Dictionary<string, object>>(); //declare dictionary list
-
-        TextAsset data = Resources.Load(file) as TextAsset; //Loads the TextAsset named in the file argument of the function
-
-        // Debug.Log("Data loaded:" + data); // Print raw data, make sure parsed correctly
-
         var lines = Regex.Split(data.text, LINE_SPLIT_RE); // Split data.text into lines using LINE_SPLIT_RE characters
 
         if (lines.Length <= 1) return list; //Check that there is more than one line

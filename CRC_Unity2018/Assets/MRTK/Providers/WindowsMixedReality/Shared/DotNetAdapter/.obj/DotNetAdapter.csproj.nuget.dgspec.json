@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Repository\\CRC_Unity2018\\Assets\\MRTK\\Providers\\WindowsMixedReality\\Shared\\DotNetAdapter\\DotNetAdapter.csproj": {}
+    "D:\\Repository\\CRC-Crane\\CRC_Unity2018\\Assets\\MRTK\\Providers\\WindowsMixedReality\\Shared\\DotNetAdapter\\DotNetAdapter.csproj": {}
   },
   "projects": {
-    "D:\\Repository\\CRC_Unity2018\\Assets\\MRTK\\Providers\\WindowsMixedReality\\Shared\\DotNetAdapter\\DotNetAdapter.csproj": {
+    "D:\\Repository\\CRC-Crane\\CRC_Unity2018\\Assets\\MRTK\\Providers\\WindowsMixedReality\\Shared\\DotNetAdapter\\DotNetAdapter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repository\\CRC_Unity2018\\Assets\\MRTK\\Providers\\WindowsMixedReality\\Shared\\DotNetAdapter\\DotNetAdapter.csproj",
+        "projectUniqueName": "D:\\Repository\\CRC-Crane\\CRC_Unity2018\\Assets\\MRTK\\Providers\\WindowsMixedReality\\Shared\\DotNetAdapter\\DotNetAdapter.csproj",
         "projectName": "DotNetAdapter",
-        "projectPath": "D:\\Repository\\CRC_Unity2018\\Assets\\MRTK\\Providers\\WindowsMixedReality\\Shared\\DotNetAdapter\\DotNetAdapter.csproj",
+        "projectPath": "D:\\Repository\\CRC-Crane\\CRC_Unity2018\\Assets\\MRTK\\Providers\\WindowsMixedReality\\Shared\\DotNetAdapter\\DotNetAdapter.csproj",
         "packagesPath": "C:\\Users\\Seogsung Jang\\.nuget\\packages\\",
-        "outputPath": "D:\\Repository\\CRC_Unity2018\\Assets\\MRTK\\Providers\\WindowsMixedReality\\Shared\\DotNetAdapter\\.obj\\",
+        "outputPath": "D:\\Repository\\CRC-Crane\\CRC_Unity2018\\Assets\\MRTK\\Providers\\WindowsMixedReality\\Shared\\DotNetAdapter\\.obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "D:\\Repository\\CRC_Unity2018\\Assets\\NuGet.Config",
+          "D:\\Repository\\CRC-Crane\\CRC_Unity2018\\Assets\\NuGet.Config",
           "C:\\Users\\Seogsung Jang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
