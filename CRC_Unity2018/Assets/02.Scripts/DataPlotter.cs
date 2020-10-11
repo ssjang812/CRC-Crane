@@ -1,17 +1,16 @@
 ﻿using Mapbox.Unity.Map;
 using Mapbox.Unity.Utilities;
 using Mapbox.Utils;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class DataPlotter : MonoBehaviour
 {
     public TextAsset data;
-    private List<Dictionary<string, object>> pointList;
-    public int columnX = 0;
-    public int columnY = 1;
-    public int columnZ = 2;
+    public List<Dictionary<string, object>> pointList;
+    public int axisXcolumn;
+    public int axisYcolumn;
+    public int axisZcolumn;
     public string xName;
     public string yName;
     public string zName;
@@ -23,16 +22,16 @@ public class DataPlotter : MonoBehaviour
 
     void Start()
     {
-        Debug.Log("Start");
+        Debug.Log(data);
         pointList = CSVReader.Read(data);
         List<string> columnList = new List<string>(pointList[0].Keys);
         abstractMap = map.GetComponent<AbstractMap>();
         //   foreach (string key in columnList)
         //       Debug.Log("Column name is " + key);
 
-        xName = columnList[columnX];
-        yName = columnList[columnY];
-        zName = columnList[columnZ];
+        xName = columnList[axisXcolumn];
+        yName = columnList[axisYcolumn];
+        zName = columnList[axisZcolumn];
 
         abstractMap.OnInitialized += _map_OnInitialized;
         _map_OnInitialized();

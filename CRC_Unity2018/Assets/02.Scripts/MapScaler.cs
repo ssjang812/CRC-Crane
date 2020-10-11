@@ -1,27 +1,37 @@
-﻿using System.Collections;
+﻿using Mapbox.Unity.Map;
+using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class MapScaler : MonoBehaviour
 {
-    // Start is called before the first frame update
-    public GameObject[] plot;
+    private AbstractMap abstractMap;
+    private void Awake()
+    {
+        abstractMap = GetComponent<AbstractMap>();
+        abstractMap.OnInitialized += MapScale;
+    }
 
-    void Start()
+    private void MapScale()
     {
         transform.localScale = new Vector3(0.01f, 0.01f, 0.01f);
         transform.position = new Vector3(0f, -0.5f, 1.0f);
-
-        foreach(GameObject p in plot)
-        {
-            p.SetActive(false);
-        }
-        plot[0].SetActive(true);
     }
 
-    // Update is called once per frame
-    void Update()
+    public static void Scale(GameObject gameObject)
     {
-        
+        gameObject.transform.localScale = new Vector3(0.01f, 0.01f, 0.01f);
+        gameObject.transform.position = new Vector3(0f, -0.5f, 1.0f);
+    }
+
+    public static void MapUp(GameObject gameObject)
+    {
+        gameObject.transform.position += Vector3.up * 0.05f;
+    }
+
+    public static void MapDown(GameObject gameObject)
+    {
+        gameObject.transform.position += Vector3.down * 0.05f;
     }
 }
