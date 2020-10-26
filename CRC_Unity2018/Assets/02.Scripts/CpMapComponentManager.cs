@@ -25,6 +25,7 @@ public class CpMapComponentManager : MonoBehaviour
         componentObj.transform.parent = transform;
         componentObj.transform.localScale = Vector3.one;
         componentObj.transform.localPosition = new Vector3(componentObj.transform.localPosition.x, componentObj.transform.localPosition.y, -0.1f);
+        componentObj.transform.localRotation = Quaternion.identity;
         mapComponents.Add(componentObj);
         CpMapComponent componentScript = componentObj.GetComponent<CpMapComponent>();
         GameObject gameObject = plotter.GeneratePlot();
