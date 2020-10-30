@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Plot : MonoBehaviour
+public class PlotData : MonoBehaviour
 {
     private List<Dictionary<string, object>> pointList;
     private static int axisXcolumn;

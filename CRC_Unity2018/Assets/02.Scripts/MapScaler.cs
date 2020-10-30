@@ -6,23 +6,27 @@ using UnityEngine;
 
 public class MapScaler : MonoBehaviour
 {
+    public Transform sceneOrigin;
     private AbstractMap abstractMap;
+    private Vector3 scale;
+
     private void Awake()
     {
         abstractMap = GetComponent<AbstractMap>();
         abstractMap.OnInitialized += MapScale;
+        scale = Vector3.one * 0.01f;
     }
 
     private void MapScale()
     {
-        transform.localScale = new Vector3(0.01f, 0.01f, 0.01f);
-        transform.position = new Vector3(0f, -0.5f, 1.0f);
+        transform.localScale = scale;
+        transform.position = sceneOrigin.position;
     }
 
-    public static void Scale(GameObject gameObject)
+    public void Scale(GameObject gameObject)
     {
-        gameObject.transform.localScale = new Vector3(0.01f, 0.01f, 0.01f);
-        gameObject.transform.position = new Vector3(0f, -0.5f, 1.0f);
+        gameObject.transform.localScale = scale;
+        gameObject.transform.position = sceneOrigin.position;
     }
 
     public static void MapUp(GameObject gameObject)

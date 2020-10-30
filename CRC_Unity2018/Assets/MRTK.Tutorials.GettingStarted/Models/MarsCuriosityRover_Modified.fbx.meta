@@ -1,0 +1,271 @@
+fileFormatVersion: 2
+guid: 793066ba8951d074bb883f1b56614842
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Body_1.0
+    100002: Body_1.1
+    100004: Body_2.1
+    100006: Body_2.2
+    100008: Body_2.3
+    100010: Body_2.4
+    100012: Body_3.1
+    100014: Body_3.2
+    100016: Camera_1.0
+    100018: Generator_1.0
+    100020: LeftWheelAssembly_1.0
+    100022: LeftWheelAssembly_2.1
+    100024: LeftWheelAssembly_2.2
+    100026: LeftWheelAssembly_3.1
+    100028: LeftWheelAssembly_3.2
+    100030: LeftWheelAssembly_3.3
+    100032: Lights_1.0
+    100034: //RootNode
+    100036: node_id49
+    100038: RightWheelAssembly_1.0
+    100040: RightWheelAssembly_2.1
+    100042: RightWheelAssembly_2.2
+    100044: RightWheelAssembly_3.1
+    100046: RightWheelAssembly_3.2
+    100048: RightWheelAssembly_3.3
+    100050: RUHFAntena_1.0
+    100052: Spectrometer_1.1
+    100054: Spectrometer_1.2
+    400000: Body_1.0
+    400002: Body_1.1
+    400004: Body_2.1
+    400006: Body_2.2
+    400008: Body_2.3
+    400010: Body_2.4
+    400012: Body_3.1
+    400014: Body_3.2
+    400016: Camera_1.0
+    400018: Generator_1.0
+    400020: LeftWheelAssembly_1.0
+    400022: LeftWheelAssembly_2.1
+    400024: LeftWheelAssembly_2.2
+    400026: LeftWheelAssembly_3.1
+    400028: LeftWheelAssembly_3.2
+    400030: LeftWheelAssembly_3.3
+    400032: Lights_1.0
+    400034: //RootNode
+    400036: node_id49
+    400038: RightWheelAssembly_1.0
+    400040: RightWheelAssembly_2.1
+    400042: RightWheelAssembly_2.2
+    400044: RightWheelAssembly_3.1
+    400046: RightWheelAssembly_3.2
+    400048: RightWheelAssembly_3.3
+    400050: RUHFAntena_1.0
+    400052: Spectrometer_1.1
+    400054: Spectrometer_1.2
+    2100000: Material_56
+    2100002: Material_60
+    2300000: Body_1.0
+    2300002: Body_1.1
+    2300004: Body_2.1
+    2300006: Body_2.2
+    2300008: Body_2.3
+    2300010: Body_2.4
+    2300012: Body_3.1
+    2300014: Body_3.2
+    2300016: Camera_1.0
+    2300018: Generator_1.0
+    2300020: LeftWheelAssembly_1.0
+    2300022: LeftWheelAssembly_2.1
+    2300024: LeftWheelAssembly_2.2
+    2300026: LeftWheelAssembly_3.1
+    2300028: LeftWheelAssembly_3.2
+    2300030: LeftWheelAssembly_3.3
+    2300032: Lights_1.0
+    2300034: node_id49
+    2300036: RightWheelAssembly_1.0
+    2300038: RightWheelAssembly_2.1
+    2300040: RightWheelAssembly_2.2
+    2300042: RightWheelAssembly_3.1
+    2300044: RightWheelAssembly_3.2
+    2300046: RightWheelAssembly_3.3
+    2300048: RUHFAntena_1.0
+    2300050: Spectrometer_1.1
+    2300052: Spectrometer_1.2
+    3300000: Body_1.0
+    3300002: Body_1.1
+    3300004: Body_2.1
+    3300006: Body_2.2
+    3300008: Body_2.3
+    3300010: Body_2.4
+    3300012: Body_3.1
+    3300014: Body_3.2
+    3300016: Camera_1.0
+    3300018: Generator_1.0
+    3300020: LeftWheelAssembly_1.0
+    3300022: LeftWheelAssembly_2.1
+    3300024: LeftWheelAssembly_2.2
+    3300026: LeftWheelAssembly_3.1
+    3300028: LeftWheelAssembly_3.2
+    3300030: LeftWheelAssembly_3.3
+    3300032: Lights_1.0
+    3300034: node_id49
+    3300036: RightWheelAssembly_1.0
+    3300038: RightWheelAssembly_2.1
+    3300040: RightWheelAssembly_2.2
+    3300042: RightWheelAssembly_3.1
+    3300044: RightWheelAssembly_3.2
+    3300046: RightWheelAssembly_3.3
+    3300048: RUHFAntena_1.0
+    3300050: Spectrometer_1.1
+    3300052: Spectrometer_1.2
+    4300000: Body_3.1
+    4300002: Body_1.0
+    4300004: Body_2.1
+    4300006: Body_3.2
+    4300008: Body_2.2
+    4300010: Body_2.4
+    4300012: LeftWheelAssembly_3.3
+    4300014: node_id49
+    4300016: RightWheelAssembly_3.1
+    4300018: RightWheelAssembly_3.2
+    4300020: RightWheelAssembly_3.3
+    4300022: LeftWheelAssembly_3.1
+    4300024: LeftWheelAssembly_3.2
+    4300026: Camera_1.0
+    4300028: Spectrometer_1.1
+    4300030: LeftWheelAssembly_1.0
+    4300032: RightWheelAssembly_1.0
+    4300034: Body_2.3
+    4300036: LeftWheelAssembly_2.1
+    4300038: LeftWheelAssembly_2.2
+    4300040: RightWheelAssembly_2.2
+    4300042: RightWheelAssembly_2.1
+    4300044: Body_1.1
+    4300046: Generator_1.0
+    4300048: Spectrometer_1.2
+    4300050: Lights_1.0
+    4300052: RUHFAntena_1.0
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_51
+    second: {fileID: 2100000, guid: b62873551dfeef943be6324c304cd0ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_52
+    second: {fileID: 2100000, guid: bfc246c5506b90144bf15735519c217c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_53
+    second: {fileID: 2100000, guid: 0393ac2b971eddd4785463e9f09c243c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_54
+    second: {fileID: 2100000, guid: bc50df427b3cb4b48931176cb316d8ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_55
+    second: {fileID: 2100000, guid: 0b03c720042dbe146afee09a803c4c9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_57
+    second: {fileID: 2100000, guid: 1c8a9561fb418d140bd508ccf24fe2a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_58
+    second: {fileID: 2100000, guid: bfc246c5506b90144bf15735519c217c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_59
+    second: {fileID: 2100000, guid: bfc246c5506b90144bf15735519c217c, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
