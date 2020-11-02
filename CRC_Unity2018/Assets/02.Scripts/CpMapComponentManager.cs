@@ -30,9 +30,11 @@ public class CpMapComponentManager : MonoBehaviour // 패널, 맵의 각 레이�
         componentObj.transform.localRotation = Quaternion.identity;
         mapComponents.Add(componentObj);
         CpMapComponent componentScript = componentObj.GetComponent<CpMapComponent>(); //패널 UI에 플롯을 생성해서 연결시킴 (동작 연결X, 존재만 연결)
+        componentScript.Instantiate(); 
         GameObject newPlot = plotter.GeneratePlot();
         mapScaler.Scale(newPlot);
-        componentScript.MapComponent = newPlot;
+        componentScript.PlotGroupObj = newPlot;
+        componentScript.PlotGroupScript = newPlot.GetComponent<PlotGroup>();
 
         foreach (Transform child in componentObj.transform) //패널 UI의 삭제버튼에 삭제기능 부여 (Plot, UI 삭제)
         {
@@ -47,11 +49,21 @@ public class CpMapComponentManager : MonoBehaviour // 패널, 맵의 각 레이�
             if (child.tag == "Slider")
             {
                 Slider slider = child.GetComponent<Slider>();
+                SliderControl sliderControl = child.GetComponent<SliderControl>();
+                slider.onValueChanged.AddListener(sliderControl.SliderValueSwitch);
+                sliderControl.instantiate();
+                sliderControl.SliderValueSwitch(slider.value);
             }
 
             if (child.tag == "Dropdown")
             {
-                TMP_Dropdown dropdown = child.GetComponent<TMP_Dropdown>();
+                TMP_Dropdown dropDown = child.GetComponent<TMP_Dropdown>();
+                DropdownControl dropDownControl = child.GetComponent<DropdownControl>();
+                dropDownControl.PlotGroupObj = newPlot;
+                dropDownControl.PlotGroupScript = newPlot.GetComponent<PlotGroup>();
+                dropDown.onValueChanged.AddListener(dropDownControl.DropdownValueSwitch);
+                dropDownControl.Instantiate();
+                dropDownControl.DropdownValueSwitch(dropDown.value);
             }
         }
 
@@ -63,7 +75,7 @@ public class CpMapComponentManager : MonoBehaviour // 패널, 맵의 각 레이�
             {
                 gObject = mapComponents[i];
                 cpScript = gObject.GetComponent<CpMapComponent>();
-                MapScaler.MapUp(cpScript.MapComponent);
+                MapScaler.MapUp(cpScript.PlotGroupObj);
 
                 ////debug code
                 //foreach (Transform child in gObject.transform)
@@ -86,8 +98,6 @@ public class CpMapComponentManager : MonoBehaviour // 패널, 맵의 각 레이�
         CpMapComponent componentScript = mapComponents[index].GetComponent<CpMapComponent>();
         //Destroy(componentScript.MapComponent); //<= Delete() 함수에서 지워주기때문에 여기선 안써야할듯
 
-        Debug.Log("index " + index);
-        Debug.Log("mapComponents.Count " + mapComponents.Count);
         if (index < mapComponents.Count-1)
         {
             GameObject gObject;
@@ -104,7 +114,6 @@ public class CpMapComponentManager : MonoBehaviour // 패널, 맵의 각 레이�
                         Button Button = child.GetComponent<Button>();
                         DeleteButton deleteFunc = child.GetComponent<DeleteButton>();
                         deleteFunc.Index--;
-                        Debug.Log(deleteFunc.Index);
                     }
                 }
             }
@@ -113,7 +122,7 @@ public class CpMapComponentManager : MonoBehaviour // 패널, 맵의 각 레이�
             {
                 gObject = mapComponents[i];
                 cpScript = gObject.GetComponent<CpMapComponent>();
-                MapScaler.MapDown(cpScript.MapComponent);
+                MapScaler.MapDown(cpScript.PlotGroupObj);
             }
         }
         mapComponents.RemoveAt(index); // ui, plot 삭제하고 마지막에 리스트에서 삭제

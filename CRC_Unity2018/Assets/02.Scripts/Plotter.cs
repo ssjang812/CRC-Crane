@@ -83,7 +83,7 @@ public class Plotter : MonoBehaviour
                 string RCCpointName = RCCplotData[i].PointList[j][PlotData.XName] + " " + RCCplotData[i].PointList[j][PlotData.YName] + " " + RCCplotData[i].PointList[j][PlotData.ZName];
                 RCCpoint.transform.name = RCCpointName;
             }
-            //RCCobj[i].SetActive(false);
+            plotGroup.RCCobj[i].SetActive(false);
         }
 
         for (int i = 0; i < WNCplotData.Length; i++)
@@ -103,7 +103,7 @@ public class Plotter : MonoBehaviour
                 string WNCpointName = WNCplotData[i].PointList[j][PlotData.XName] + " " + WNCplotData[i].PointList[j][PlotData.YName] + " " + WNCplotData[i].PointList[j][PlotData.ZName];
                 WNCpoint.transform.name = WNCpointName;
             }
-            //plotGroup.WNCobj[i].SetActive(false);
+            plotGroup.WNCobj[i].SetActive(false);
         }
         return PlotGroup;
     }

@@ -15,7 +15,7 @@ public class DeleteButton : MonoBehaviour
         CpMapComponent cpMapComopnent = buttonsParent.GetComponent<CpMapComponent>();
         
         buttonsParent.transform.parent.GetComponent<CpMapComponentManager>().OnDeleteComponenet(index);
-        Destroy(cpMapComopnent.MapComponent);
+        Destroy(cpMapComopnent.PlotGroupObj);
         Destroy(buttonsParent);
     }
 }
