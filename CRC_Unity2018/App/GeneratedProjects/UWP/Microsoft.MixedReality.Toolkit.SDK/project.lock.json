@@ -16488,12 +16488,12 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "D:\\Repository\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit.SDK\\Microsoft.MixedReality.Toolkit.SDK.csproj",
+      "projectUniqueName": "D:\\Repository\\CRC-Crane\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit.SDK\\Microsoft.MixedReality.Toolkit.SDK.csproj",
       "projectName": "Microsoft.MixedReality.Toolkit.SDK",
-      "projectPath": "D:\\Repository\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit.SDK\\Microsoft.MixedReality.Toolkit.SDK.csproj",
-      "projectJsonPath": "D:\\Repository\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit.SDK\\project.json",
+      "projectPath": "D:\\Repository\\CRC-Crane\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit.SDK\\Microsoft.MixedReality.Toolkit.SDK.csproj",
+      "projectJsonPath": "D:\\Repository\\CRC-Crane\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit.SDK\\project.json",
       "packagesPath": "C:\\Users\\Seogsung Jang\\.nuget\\packages\\",
-      "outputPath": "D:\\Repository\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit.SDK\\obj\\",
+      "outputPath": "D:\\Repository\\CRC-Crane\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit.SDK\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
         "C:\\Users\\Seogsung Jang\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -16506,23 +16506,23 @@
       "frameworks": {
         "uap10.0.10240": {
           "projectReferences": {
-            "D:\\Repository\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit.Async\\Microsoft.MixedReality.Toolkit.Async.csproj": {
-              "projectPath": "D:\\Repository\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit.Async\\Microsoft.MixedReality.Toolkit.Async.csproj"
+            "D:\\Repository\\CRC-Crane\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit.Async\\Microsoft.MixedReality.Toolkit.Async.csproj": {
+              "projectPath": "D:\\Repository\\CRC-Crane\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit.Async\\Microsoft.MixedReality.Toolkit.Async.csproj"
             },
-            "D:\\Repository\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit.Services.InputAnimation\\Microsoft.MixedReality.Toolkit.Services.InputAnimation.csproj": {
-              "projectPath": "D:\\Repository\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit.Services.InputAnimation\\Microsoft.MixedReality.Toolkit.Services.InputAnimation.csproj"
+            "D:\\Repository\\CRC-Crane\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit.Services.InputAnimation\\Microsoft.MixedReality.Toolkit.Services.InputAnimation.csproj": {
+              "projectPath": "D:\\Repository\\CRC-Crane\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit.Services.InputAnimation\\Microsoft.MixedReality.Toolkit.Services.InputAnimation.csproj"
             },
-            "D:\\Repository\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit.Services.InputSimulation\\Microsoft.MixedReality.Toolkit.Services.InputSimulation.csproj": {
-              "projectPath": "D:\\Repository\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit.Services.InputSimulation\\Microsoft.MixedReality.Toolkit.Services.InputSimulation.csproj"
+            "D:\\Repository\\CRC-Crane\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit.Services.InputSimulation\\Microsoft.MixedReality.Toolkit.Services.InputSimulation.csproj": {
+              "projectPath": "D:\\Repository\\CRC-Crane\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit.Services.InputSimulation\\Microsoft.MixedReality.Toolkit.Services.InputSimulation.csproj"
             },
-            "D:\\Repository\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit.Services.InputSystem\\Microsoft.MixedReality.Toolkit.Services.InputSystem.csproj": {
-              "projectPath": "D:\\Repository\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit.Services.InputSystem\\Microsoft.MixedReality.Toolkit.Services.InputSystem.csproj"
+            "D:\\Repository\\CRC-Crane\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit.Services.InputSystem\\Microsoft.MixedReality.Toolkit.Services.InputSystem.csproj": {
+              "projectPath": "D:\\Repository\\CRC-Crane\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit.Services.InputSystem\\Microsoft.MixedReality.Toolkit.Services.InputSystem.csproj"
             },
-            "D:\\Repository\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit\\Microsoft.MixedReality.Toolkit.csproj": {
-              "projectPath": "D:\\Repository\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit\\Microsoft.MixedReality.Toolkit.csproj"
+            "D:\\Repository\\CRC-Crane\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit\\Microsoft.MixedReality.Toolkit.csproj": {
+              "projectPath": "D:\\Repository\\CRC-Crane\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit\\Microsoft.MixedReality.Toolkit.csproj"
             },
-            "D:\\Repository\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Unity.TextMeshPro\\Unity.TextMeshPro.csproj": {
-              "projectPath": "D:\\Repository\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Unity.TextMeshPro\\Unity.TextMeshPro.csproj"
+            "D:\\Repository\\CRC-Crane\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Unity.TextMeshPro\\Unity.TextMeshPro.csproj": {
+              "projectPath": "D:\\Repository\\CRC-Crane\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Unity.TextMeshPro\\Unity.TextMeshPro.csproj"
             }
           }
         }

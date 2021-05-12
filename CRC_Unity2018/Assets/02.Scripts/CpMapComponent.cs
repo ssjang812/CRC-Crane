@@ -1,10 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEditorInternal;
+//using UnityEditorInternal;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CpMapComponent : MonoBehaviour
+public class CpMapComponent : MonoBehaviour // 슬라이더와 드롭다운 조작에따라 보여지는 plot을 조작해주는 스크립트 (레이어가 생설될때 모든 플롯을 생성하고 해당하는 플롯외에는 다 꺼두는 형태로 동작함)
 {
     private GameObject plotGroupObj;
     private PlotGroup plotGroupScript;
@@ -88,7 +88,7 @@ public class CpMapComponent : MonoBehaviour
 
     private void MapOff()
     {
-        Debug.Log("Mapoff : " + formalDropdownValue + "  " + formalSliderValue);
+        //Debug.Log("Mapoff : " + formalDropdownValue + "  " + formalSliderValue);
         if(formalDropdownValue == 999 || formalSliderValue == 999)
         {
             return;
@@ -122,7 +122,7 @@ public class CpMapComponent : MonoBehaviour
         }
         else
         {
-            switch (sliderValue)
+            switch (formalSliderValue)
             {
                 case 2009:
                     PlotGroupScript.WNCobj[0].SetActive(false);

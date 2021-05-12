@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SSJ</Machine>
+    <WindowsUser>Seogsung Jang</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Master|ARM</SolutionConfiguration>
+    <PackageArchitecture>arm</PackageArchitecture>
+    <PackageIdentityName>bd4c0596-c70c-49f7-8dd2-3f63c314d6b7</PackageIdentityName>
+    <PackageIdentityPublisher>CN=DefaultCompany</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\Repository\CRC-Crane\CRC_Unity2018\App\CRC_Unity2018\obj\ARM\Master\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>D:\Repository\CRC-Crane\CRC_Unity2018\App\CRC_Unity2018\bin\ARM\Master\AppX</LayoutDir>
+    <RegisteredManifestChecksum>27334FC4E4ADA3F1C93D3B3EE1D60ABC68EFB5360CB6D486456537987AE25C68</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>CRCUnity2018_1.0.0.0_arm__pzq3xp76mxafg</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>CRCUnity2018_pzq3xp76mxafg!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>CRCUnity2018</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=DefaultCompany</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Repository\CRC-Crane\CRC_Unity2018\App\CRC_Unity2018\bin\ARM\Master\ilc\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:28:20.770</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Repository\CRC-Crane\CRC_Unity2018\App\CRC_Unity2018\bin\ARM\Master\ilc\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-07-08T00:14:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repository\CRC-Crane\CRC_Unity2018\App\CRC_Unity2018\bin\ARM\Master\ilc\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-07-08T00:14:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repository\CRC-Crane\CRC_Unity2018\App\CRC_Unity2018\bin\ARM\Master\ilc\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-07-08T00:14:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repository\CRC-Crane\CRC_Unity2018\App\CRC_Unity2018\bin\ARM\Master\ilc\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-07-08T00:14:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repository\CRC-Crane\CRC_Unity2018\App\CRC_Unity2018\bin\ARM\Master\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-07-08T00:14:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repository\CRC-Crane\CRC_Unity2018\App\CRC_Unity2018\bin\ARM\Master\ilc\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-07-08T00:14:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repository\CRC-Crane\CRC_Unity2018\App\CRC_Unity2018\bin\ARM\Master\ilc\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-07-08T00:14:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repository\CRC-Crane\CRC_Unity2018\App\CRC_Unity2018\bin\ARM\Master\ilc\AudioPluginMsHRTF.dll">
+      <PackagePath>AudioPluginMsHRTF.dll</PackagePath>
+      <Modified>2020-06-02T13:15:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repository\CRC-Crane\CRC_Unity2018\App\CRC_Unity2018\bin\ARM\Master\ilc\BridgeInterface.dll">
+      <PackagePath>BridgeInterface.dll</PackagePath>
+      <Modified>2020-07-08T01:15:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repository\CRC-Crane\CRC_Unity2018\App\CRC_Unity2018\bin\ARM\Master\ilc\BridgeInterface.winmd">
+      <PackagePath>BridgeInterface.winmd</PackagePath>
+      <Modified>2020-07-08T01:15:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repository\CRC-Crane\CRC_Unity2018\App\CRC_Unity2018\bin\ARM\Master\ilc\clrcompression.dll">
+      <PackagePath>clrcompression.dll</PackagePath>
+      <Modified>2016-06-13T12:43:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repository\CRC-Crane\CRC_Unity2018\App\CRC_Unity2018\bin\ARM\Master\ilc\CRC_Unity2018.dll">
+      <PackagePath>CRC_Unity2018.dll</PackagePath>
+      <Modified>2020-12-06T09:28:12.892</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repository\CRC-Crane\CRC_Unity2018\App\CRC_Unity2018\bin\ARM\Master\ilc\CRC_Unity2018.exe">
+      <PackagePath>CRC_Unity2018.exe</PackagePath>
+      <Modified>2020-12-06T09:28:20.690</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repository\CRC-Crane\CRC_Unity2018\App\CRC_Unity2018\bin\ARM\Master\ilc\CRC_Unity2018.pdb">
+      <PackagePath>CRC_Unity2018.pdb</PackagePath>
+      <Modified>2020-12-06T09:28:20.669</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repository\CRC-Crane\CRC_Unity2018\App\CRC_Unity2018\bin\ARM\Master\ilc\Data\boot.config">
+      <PackagePath>Data\boot.config</PackagePath>
+      <Modified>2020-12-06T09:22:25.790</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repository\CRC-Crane\CRC_Unity2018\App\CRC_Unity2018\bin\ARM\Master\ilc\Data\globalgamemanagers">
+      <PackagePath>Data\globalgamemanagers</PackagePath>
+      <Modified>2020-12-06T09:22:23.328</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repository\CRC-Crane\CRC_Unity2018\App\CRC_Unity2018\bin\ARM\Master\ilc\Data\globalgamemanagers.assets">
+      <PackagePath>Data\globalgamemanagers.assets</PackagePath>
+      <Modified>2020-12-06T09:22:23.440</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repository\CRC-Crane\CRC_Unity2018\App\CRC_Unity2018\bin\ARM\Master\ilc\Data\level0">
+      <PackagePath>Data\level0</PackagePath>
+      <Modified>2020-12-06T09:22:14.479</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repository\CRC-Crane\CRC_Unity2018\App\CRC_Unity2018\bin\ARM\Master\ilc\Data\level0.resS">
+      <PackagePath>Data\level0.resS</PackagePath>
+      <Modified>2020-12-06T09:22:14.479</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repository\CRC-Crane\CRC_Unity2018\App\CRC_Unity2018\bin\ARM\Master\ilc\Data\managedAssemblies.txt">
+      <PackagePath>Data\managedAssemblies.txt</PackagePath>
+      <Modified>2020-12-06T09:22:40.538</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repository\CRC-Crane\CRC_Unity2018\App\CRC_Unity2018\bin\ARM\Master\ilc\Data\nativePlugins.txt">
+      <PackagePath>Data\nativePlugins.txt</PackagePath>
+      <Modified>2020-12-06T09:22:40.539</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repository\CRC-Crane\CRC_Unity2018\App\CRC_Unity2018\bin\ARM\Master\ilc\Data\resources.assets">
+      <PackagePath>Data\resources.assets</PackagePath>
+      <Modified>2020-12-06T09:22:24.299</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repository\CRC-Crane\CRC_Unity2018\App\CRC_Unity2018\bin\ARM\Master\ilc\Data\resources.assets.resS">
+      <PackagePath>Data\resources.assets.resS</PackagePath>
+      <Modified>2020-12-06T09:22:24.298</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repository\CRC-Crane\CRC_Unity2018\App\CRC_Unity2018\bin\ARM\Master\ilc\Data\Resources\unity default resources">
+      <PackagePath>Data\Resources\unity default resources</PackagePath>
+      <Modified>2020-07-08T00:14:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repository\CRC-Crane\CRC_Unity2018\App\CRC_Unity2018\bin\ARM\Master\ilc\Data\Resources\unity_builtin_extra">
+      <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
+      <Modified>2020-12-06T09:22:25.784</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repository\CRC-Crane\CRC_Unity2018\App\CRC_Unity2018\bin\ARM\Master\ilc\Data\sharedassets0.assets">
+      <PackagePath>Data\sharedassets0.assets</PackagePath>
+      <Modified>2020-12-06T09:22:25.491</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repository\CRC-Crane\CRC_Unity2018\App\CRC_Unity2018\bin\ARM\Master\ilc\Data\sharedassets0.assets.resS">
+      <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
+      <Modified>2020-12-06T09:22:25.488</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repository\CRC-Crane\CRC_Unity2018\App\CRC_Unity2018\bin\ARM\Master\ilc\Data\sharedassets0.resource">
+      <PackagePath>Data\sharedassets0.resource</PackagePath>
+      <Modified>2020-12-06T09:22:25.456</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repository\CRC-Crane\CRC_Unity2018\App\CRC_Unity2018\bin\ARM\Master\ilc\NuGet.config">
+      <PackagePath>NuGet.config</PackagePath>
+      <Modified>2020-01-31T23:24:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repository\CRC-Crane\CRC_Unity2018\App\CRC_Unity2018\bin\ARM\Master\ilc\Resource.res">
+      <PackagePath>Resource.res</PackagePath>
+      <Modified>2020-12-06T09:22:40.594</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repository\CRC-Crane\CRC_Unity2018\App\CRC_Unity2018\bin\ARM\Master\ilc\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2020-12-06T09:24:10.047</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repository\CRC-Crane\CRC_Unity2018\App\CRC_Unity2018\bin\ARM\Master\ilc\StoreManifest.xml">
+      <PackagePath>StoreManifest.xml</PackagePath>
+      <Modified>2020-12-06T09:22:26.306</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repository\CRC-Crane\CRC_Unity2018\App\CRC_Unity2018\bin\ARM\Master\ilc\UnityEngineDelegates.dll">
+      <PackagePath>UnityEngineDelegates.dll</PackagePath>
+      <Modified>2020-07-08T01:15:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repository\CRC-Crane\CRC_Unity2018\App\CRC_Unity2018\bin\ARM\Master\ilc\UnityPlayer.dll">
+      <PackagePath>UnityPlayer.dll</PackagePath>
+      <Modified>2020-07-08T01:15:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repository\CRC-Crane\CRC_Unity2018\App\CRC_Unity2018\bin\ARM\Master\ilc\UnityPlayer.winmd">
+      <PackagePath>UnityPlayer.winmd</PackagePath>
+      <Modified>2020-07-08T01:15:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repository\CRC-Crane\CRC_Unity2018\App\CRC_Unity2018\bin\ARM\Master\ilc\_Resources\0.rsrc">
+      <PackagePath>_Resources\0.rsrc</PackagePath>
+      <Modified>2020-12-06T09:25:26.114</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repository\CRC-Crane\CRC_Unity2018\App\CRC_Unity2018\bin\ARM\Master\ilc\_Resources\index.txt">
+      <PackagePath>_Resources\index.txt</PackagePath>
+      <Modified>2020-12-06T09:25:26.143</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\Seogsung Jang\.nuget\packages\microsoft.net.native.sharedlibrary-x86\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx">
+      <Name>Microsoft.NET.Native.Framework.1.7</Name>
+      <Version>1.7.25531.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.7, MinVersion = 1.7.25531.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Seogsung Jang\.nuget\packages\microsoft.net.native.sharedlibrary-x86\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Seogsung Jang\.nuget\packages\microsoft.net.native.sharedlibrary-x64\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx">
+      <Name>Microsoft.NET.Native.Framework.1.7</Name>
+      <Version>1.7.25531.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.7, MinVersion = 1.7.25531.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Seogsung Jang\.nuget\packages\microsoft.net.native.sharedlibrary-x64\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Seogsung Jang\.nuget\packages\microsoft.net.native.sharedlibrary-arm\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx">
+      <Name>Microsoft.NET.Native.Framework.1.7</Name>
+      <Version>1.7.25531.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.7, MinVersion = 1.7.25531.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Seogsung Jang\.nuget\packages\microsoft.net.native.sharedlibrary-arm\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Seogsung Jang\.nuget\packages\microsoft.net.native.compiler\1.7.1\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.1.7.appx">
+      <Name>Microsoft.NET.Native.Runtime.1.7</Name>
+      <Version>1.7.25531.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.7, MinVersion = 1.7.25531.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Seogsung Jang\.nuget\packages\microsoft.net.native.compiler\1.7.1\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.1.7.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Seogsung Jang\.nuget\packages\microsoft.net.native.compiler\1.7.1\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.1.7.appx">
+      <Name>Microsoft.NET.Native.Runtime.1.7</Name>
+      <Version>1.7.25531.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.7, MinVersion = 1.7.25531.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Seogsung Jang\.nuget\packages\microsoft.net.native.compiler\1.7.1\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.1.7.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Seogsung Jang\.nuget\packages\microsoft.net.native.compiler\1.7.1\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.1.7.appx">
+      <Name>Microsoft.NET.Native.Runtime.1.7</Name>
+      <Version>1.7.25531.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.7, MinVersion = 1.7.25531.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Seogsung Jang\.nuget\packages\microsoft.net.native.compiler\1.7.1\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.1.7.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM64\Microsoft.VCLibs.ARM64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

@@ -16317,12 +16317,12 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "D:\\Repository\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality\\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.csproj",
+      "projectUniqueName": "D:\\Repository\\CRC-Crane\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality\\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.csproj",
       "projectName": "Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality",
-      "projectPath": "D:\\Repository\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality\\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.csproj",
-      "projectJsonPath": "D:\\Repository\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality\\project.json",
+      "projectPath": "D:\\Repository\\CRC-Crane\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality\\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.csproj",
+      "projectJsonPath": "D:\\Repository\\CRC-Crane\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality\\project.json",
       "packagesPath": "C:\\Users\\Seogsung Jang\\.nuget\\packages\\",
-      "outputPath": "D:\\Repository\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality\\obj\\",
+      "outputPath": "D:\\Repository\\CRC-Crane\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
         "C:\\Users\\Seogsung Jang\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -16335,14 +16335,14 @@
       "frameworks": {
         "uap10.0.10240": {
           "projectReferences": {
-            "D:\\Repository\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit.Gltf\\Microsoft.MixedReality.Toolkit.Gltf.csproj": {
-              "projectPath": "D:\\Repository\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit.Gltf\\Microsoft.MixedReality.Toolkit.Gltf.csproj"
+            "D:\\Repository\\CRC-Crane\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit.Gltf\\Microsoft.MixedReality.Toolkit.Gltf.csproj": {
+              "projectPath": "D:\\Repository\\CRC-Crane\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit.Gltf\\Microsoft.MixedReality.Toolkit.Gltf.csproj"
             },
-            "D:\\Repository\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared\\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.csproj": {
-              "projectPath": "D:\\Repository\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared\\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.csproj"
+            "D:\\Repository\\CRC-Crane\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared\\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.csproj": {
+              "projectPath": "D:\\Repository\\CRC-Crane\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared\\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.csproj"
             },
-            "D:\\Repository\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit\\Microsoft.MixedReality.Toolkit.csproj": {
-              "projectPath": "D:\\Repository\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit\\Microsoft.MixedReality.Toolkit.csproj"
+            "D:\\Repository\\CRC-Crane\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit\\Microsoft.MixedReality.Toolkit.csproj": {
+              "projectPath": "D:\\Repository\\CRC-Crane\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Microsoft.MixedReality.Toolkit\\Microsoft.MixedReality.Toolkit.csproj"
             }
           }
         }

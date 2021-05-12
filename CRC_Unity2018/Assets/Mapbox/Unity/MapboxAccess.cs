@@ -1,4 +1,4 @@
-using MapboxAccountsUnity;
+
 
 namespace Mapbox.Unity
 {
@@ -14,12 +14,13 @@ namespace Mapbox.Unity
 	using Mapbox.MapMatching;
 	using Mapbox.Tokens;
 	using Mapbox.Platform.TilesetTileJSON;
+    using MapboxAccountsUnity;
 
-	/// <summary>
-	/// Object for retrieving an API token and making http requests.
-	/// Contains a lazy <see cref="T:Mapbox.Geocoding.Geocoder">Geocoder</see> and a lazy <see cref="T:Mapbox.Directions.Directions">Directions</see> for convenience.
-	/// </summary>
-	public class MapboxAccess : IFileSource
+    /// <summary>
+    /// Object for retrieving an API token and making http requests.
+    /// Contains a lazy <see cref="T:Mapbox.Geocoding.Geocoder">Geocoder</see> and a lazy <see cref="T:Mapbox.Directions.Directions">Directions</see> for convenience.
+    /// </summary>
+    public class MapboxAccess : IFileSource
 	{
 		ITelemetryLibrary _telemetryLibrary;
 		CachingWebFileSource _fileSource;

@@ -15996,12 +15996,12 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "D:\\Repository\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Unity.Analytics.DataPrivacy\\Unity.Analytics.DataPrivacy.csproj",
+      "projectUniqueName": "D:\\Repository\\CRC-Crane\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Unity.Analytics.DataPrivacy\\Unity.Analytics.DataPrivacy.csproj",
       "projectName": "Unity.Analytics.DataPrivacy",
-      "projectPath": "D:\\Repository\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Unity.Analytics.DataPrivacy\\Unity.Analytics.DataPrivacy.csproj",
-      "projectJsonPath": "D:\\Repository\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Unity.Analytics.DataPrivacy\\project.json",
+      "projectPath": "D:\\Repository\\CRC-Crane\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Unity.Analytics.DataPrivacy\\Unity.Analytics.DataPrivacy.csproj",
+      "projectJsonPath": "D:\\Repository\\CRC-Crane\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Unity.Analytics.DataPrivacy\\project.json",
       "packagesPath": "C:\\Users\\Seogsung Jang\\.nuget\\packages\\",
-      "outputPath": "D:\\Repository\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Unity.Analytics.DataPrivacy\\obj\\",
+      "outputPath": "D:\\Repository\\CRC-Crane\\CRC_Unity2018\\App\\GeneratedProjects\\UWP\\Unity.Analytics.DataPrivacy\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
         "C:\\Users\\Seogsung Jang\\AppData\\Roaming\\NuGet\\NuGet.Config",
